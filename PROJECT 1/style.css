@@ -1,0 +1,351 @@
+body{
+    background-image: url(images/BG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: -100;
+}
+
+/*Logo in the corner*/
+#divForLogo{
+    display:none;
+}
+
+
+/* WRAPPER 1*/
+
+#wrapper1{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin-left: 200px;
+    margin-top: 50px;
+    border: 1px solid rgba(235, 235, 0, 0.747);
+    border-radius: 16px;
+    display: block;
+    
+
+}
+
+#logoImg{
+    width: 400px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 0px;
+    display: block;
+}
+
+h3{
+    margin-left: 90px;
+    margin-top: 60px;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    font-weight: 30;
+    letter-spacing: 2px;
+    color: rgba(235, 235, 0, 0.877);
+    display: block;
+    float: left;
+
+}
+
+/* LOG IN AND SIGN UP BUTTONS*/
+
+#logIn{
+    margin-right: 200px;
+    margin-top: -10px;
+    float: right;
+
+}
+
+#signUp{
+    float: right;
+    margin-top: 45px;
+    margin-right: 200px;
+
+}
+
+.LSbuttons{
+    width: 100px;
+    height: 50px;
+    color: rgb(235, 235, 0);
+    font-family: verdana;
+    font-size: 15px;
+    background-color: rgba(46, 46, 46, 0.63);
+    padding: 11px;
+    border: 1px solid rgba(235, 235, 0, 0.747);
+    border-radius: 10px;
+}
+
+.LSbuttons:hover{
+    background-color: rgb(235, 235, 0);
+    color: rgba(29, 29, 29, 0.836);
+    transform: scale(1.2);
+}
+
+
+/*WRAPPER 2*/
+
+#wrapper2{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 700px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 1px solid rgba(235, 235, 0, 0.747);
+    border-radius: 10px;
+    display: none;
+}
+
+.inputs{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    font-family: verdana;
+    font-size: 15px;
+    background-color: rgba(46, 46, 46, 0.63);
+    padding: 11px;
+    border: 1px solid rgba(235, 235, 0, 0.747);
+    border-radius: 10px;
+    color: rgb(235, 235, 0);
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 70;
+    color: rgb(235, 235, 0);
+    margin-top: 60px;
+    text-align: center;
+}
+
+.buttonW2{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.buttonW2:hover{
+    background-color: rgb(235, 235, 0);
+    color: rgba(29, 29, 29, 0.836);
+    transform: scale(1.2);
+}
+
+/* WRAPPER 3 */
+
+#wrapper3{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 700px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 1px solid rgba(235, 235, 0, 0.747);
+    border-radius: 10px;
+    display: none;
+}
+
+
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 70;
+    color: rgb(235, 235, 0);
+    margin-top: 60px;
+    text-align: center;
+}
+
+.agreement{
+    font-family: verdana;
+    color: rgba(235, 235, 0, 0.747);
+    font-size: 15px;
+
+}
+
+.buttonW3{
+    margin-left: 300px;
+}
+
+.buttonW3:hover{
+    background-color: rgb(235, 235, 0);
+    color: rgba(29, 29, 29, 0.836);
+    transform: scale(1.2);
+}
+
+
+/*WRAPPER 4*/
+
+#wrapper4{
+    
+    display: none;
+
+}
+
+#create{
+    margin-top: 70px;
+    margin-left: 550px;
+    display: block;
+    position: relative;
+}
+
+/*HOVERS*/
+#create:hover, #logOut:hover, #accountSettings:hover, #goBack:hover, #ASedit:hover{
+    background-color: rgb(235, 235, 0);
+    color: rgba(29, 29, 29, 0.836);
+    transform: scale(1.2);
+}
+
+#logOut{
+    margin-top: -62px;
+    margin-left: 1250px;
+    display: block;
+    position: relative;
+}
+
+
+#accountSettings{
+    margin-top: -59px;
+    margin-left: 1050px;
+    display: block;
+    position: relative;
+}
+
+
+/*CREATE TO DO LIST*/
+
+.newDiv{
+   width: 600px;
+   height: 400px;
+   margin-top: 55px;
+   margin-left: 350px;
+   background-color: rgba(0, 0, 0, 0.534);
+   border: 1px solid rgba(235, 235, 0, 0.747);
+   border-radius: 16px;
+   position: relative;
+   display: inline-block;
+}
+
+.renameButton{
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 70px;
+    padding: 7px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+}
+
+.renameButton:hover{
+    background-color: rgb(235, 235, 0);
+    color: rgba(29, 29, 29, 0.836);
+    transform: scale(1.2);
+
+}
+
+.listTitle{
+    color: rgba(235, 235, 0, 0.644);
+    margin-left: 15px;
+    width: 350px;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+}
+
+.listTitleRenamed{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(235, 235, 0);
+    display: inline-block;
+    position: absolute;
+
+}
+
+/* add, save and edit buttons */
+
+.addButton{
+    margin-top: 270px;
+    margin-right: 40px;
+    position: absolute;
+    float: right;
+}
+
+.saveButton{
+    margin-top: 340px;
+    margin-left: 250px;
+    position: absolute;
+    padding: 10px;
+    width: 100px;
+    font-size: 17px;
+}
+
+.saveButton:hover{
+    background: rgb(69, 238, 36);
+}
+
+.editButton{
+    margin-top: -18px;
+    margin-left: 150px;
+    display: block;
+    position: relative;
+}
+
+.toDoItems{
+    margin-top: 270px;
+    margin-left: 15px;
+    width: 350px;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+}
+
+/*////////////////////////////*/
+
+
+#divItems{
+
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 300px;
+    height: 50px;
+    display: inline-table;
+    position: absolute;
+
+
+}
+
+.addedToDoItems{
+    font-family: verdana;
+    color: rgb(235, 235, 0);
+    font-size: 18px;
+}
+
+
+.savedItems{
+    width: 230px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* WRAPPER 5 */
+
+#wrapper5{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 700px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 1px solid rgba(235, 235, 0, 0.747);
+    border-radius: 10px;
+    display: none;
+}
+
+#goBack{
+    margin-top: -61px;
+    margin-left: 550px;
+    display: block;
+    position: relative;
+}

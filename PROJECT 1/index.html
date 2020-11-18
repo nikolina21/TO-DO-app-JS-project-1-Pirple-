@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+       <title>ToDo - Doo</title>
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+       <link rel="icon" href="images/LOGO.png">
+
+    </head>
+    <body>
+
+        <div id="divForLogo">
+            <img src="images/LOGO no Black.png" style="margin-top: -70px;
+            margin-left: -50px;
+            width: 250px; height: auto; position: fixed;">
+        </div>
+
+        <!--Wrapper 1: Welcome part, login and signup buttons.
+            Wrapper 2: LogIn form
+            Wrapper 3: SignUp form
+            Wrapper 4: Dashboard
+            Wrapper 5: Edit SignUp form (account settings)-->
+
+        <!-- WRAPPER 1-->
+        <div id="wrapper1">
+           <img id="logoImg" src="images/LOGO no Black.png">
+           <h3>Make your daily activities <br> a "to-do-doo" song.</h3>
+           <button id="logIn" class="LSbuttons">Log in</button>
+           <button id="signUp" class="LSbuttons">Sign up</button>
+        </div>
+
+        <!--WRAPPER 2-->
+        <div id="wrapper2">
+            <form>
+                <h2>Log In</h2>
+                <input id="emailLog" class="inputs" type="text" placeholder="Enter your email here..." required>
+                <br>
+                <input id="passLog" class="inputs" type="password" placeholder="Enter your password..." required>
+                <br>
+                <button id = "logIn2" class="inputs buttonW2">Log in!</button>
+
+            </form>
+        </div>
+
+        <!--WRAPPER 3-->
+        <div id="wrapper3">
+          <form>
+                <h2>Sign Up</h2>
+                <input id="nameSign" class="inputs" type="text" placeholder="Enter your first name" required>
+                <input id="lastNameSign" class="inputs" type="text" placeholder="Enter your last name" required>
+                <input id="emailSign" class="inputs" type="email" placeholder="Enter your email here..." required>
+                <br>
+                <input id="passSign" class="inputs" type="password" placeholder="Enter your password..." required>
+                <br>
+                <input id = "checkBox" class= "inputs" type="checkbox" style="float: left; margin-top: 10px;" required><div class="agreement" style="margin-top: 7px;">I agree to the Terms of Use</div>
+                <br>
+                <button id = "signUp2" class="inputs buttonW3">Sign up!</button>
+
+          </form>
+
+        </div>
+
+        <!--WRAPPER 4-->
+        <div id="wrapper4">
+            <button id="create" class="inputs">+ Create new to do list</button>
+            <button id="accountSettings" class="inputs">Account Settings</button>
+            <button id="logOut" class = "inputs">Log out</button>
+      
+        </div>
+
+        <!--WRAPPER 5-->
+        <div id = "wrapper5">
+            <form>
+                <h2>Account Settings</h2>
+                <input id="editNameSign" class="inputs" type="text" placeholder="Enter your first name" required>
+                <input id="editLastNameSign" class="inputs" type="text" placeholder="Enter your last name" required>
+                <input id="editEmailSign" class="inputs" type="email" placeholder="Enter your email here..." required>
+                <br>
+                <input id="editPassSign" class="inputs" type="password" placeholder="Enter your password..." required>
+                <br>
+                <br>
+                <button id = "ASedit" class="inputs buttonW3">Edit</button>
+                <button id = "goBack" class= "inputs buttonW3">Go back</button>
+
+          </form>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="main.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
